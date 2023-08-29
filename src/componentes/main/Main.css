@@ -1,0 +1,11 @@
+main{
+    background-color: rgb(192, 250, 200);
+    height: 640px;
+    display: flex;
+    align-items: center;
+}
+
+.textm{
+    width: 450px;
+    font-size: 30px;
+}

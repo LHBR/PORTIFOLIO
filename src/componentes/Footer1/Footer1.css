@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&display=swap');
+.footer{
+background-color: rgb(65, 253, 121);
+height: 150px;
+width: 100%;
+font-size: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.texto{
+    margin-left: 50px;
+    font-size: 50px;
+}
+
+
+ 
+.img{
+    width: 300px;
+    height: auto;
+}
+
+.nome{
+    font-size: 75px;
+    font-family: 'DM Sans', sans-serif;
+
+}
+    
+.ctt{
+    font-size: 50px;
+    padding: 0px 100px 0px 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.ctt:hover{
+    cursor: pointer;
+    color: azure;
+}

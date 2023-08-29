@@ -1,0 +1,30 @@
+header{
+    background-color: rgb(44, 226, 38);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 05vw;
+    align-items: center;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    padding: 15px;
+    border: 1px solid rgb(36, 206, 72);
+    color: white;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+.logo{
+background: url('/src/componentes/img/uzap.img.png');
+background-repeat: no-repeat;
+width: 100px;
+height: 100px;
+background-image: 100%;
+background-size: 100%;
+
+}
