@@ -14,33 +14,33 @@ export default function Main(){
     const projeto:ProjetoType[] = [
         {
             id:1,
-            titulo:"Projeto Ensino",
+            titulo:"Apresentação FECINAVI",
             sinopse:"Depois de ser expulsa da Barbieland por ser uma boneca de aparência menos do que perfeita, Barbie parte para o mundo humano em busca da verdadeira felicidade.",
-            imagem:"/projetoEnsino"
+            imagem:"/projetoEnsino.png"
         },
         {
             id:2,
-            titulo:"Semana do Meio Ambiente",
+            titulo:"Premiação FECINAVI",
             sinopse:"Depois de ser expulsa da Barbieland por ser uma boneca de aparência menos do que perfeita, Barbie parte para o mundo humano em busca da verdadeira felicidade.",
-            imagem:"/transformes.jpeg"
+            imagem:"/fecinavi.JPG"
         },
         {
             id:3,
             titulo:" 2º Dia da Consciência Indígena",
             sinopse:"Depois de ser expulsa da Barbieland por ser uma boneca de aparência menos do que perfeita, Barbie parte para o mundo humano em busca da verdadeira felicidade.",
-            imagem:"/transformes.jpeg"
+            imagem:"/conciencianegra.JPG"
         },
         {
           id:4,
-          titulo:" 2º Dia da Consciência Indígena",
+          titulo:"Semana do Meio Ambiente",
           sinopse:"Depois de ser expulsa da Barbieland por ser uma boneca de aparência menos do que perfeita, Barbie parte para o mundo humano em busca da verdadeira felicidade.",
-          imagem:"/transformes.jpeg"
+          imagem:"/meioambiente.png"
       },
       {
         id:5,
-        titulo:" 2º Dia da Consciência Indígena",
+        titulo:"Scooby",
         sinopse:"Depois de ser expulsa da Barbieland por ser uma boneca de aparência menos do que perfeita, Barbie parte para o mundo humano em busca da verdadeira felicidade.",
-        imagem:"/transformes.jpeg"
+        imagem:"/filho.jpg"
     },
     {
       id:6,
@@ -61,10 +61,10 @@ export default function Main(){
         <>
             <div className="pesquisa">
                 
-                <p>Buscar Filme</p>
+                <p>Buscar Projeto</p>
                 <input className='barrapesquisa' type="text" onChange={mudaTexto} />
                 <div>
-                    <p className='texto_digitado'>pesquisa: {texto}</p>
+                   
                 </div>
             </div>
             <main className="content-main">
