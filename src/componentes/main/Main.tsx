@@ -15,42 +15,34 @@ export default function Main(){
         {
             id:1,
             titulo:"Apresentação FECINAVI",
-            sinopse:"Depois de ser expulsa da Barbieland por ser uma boneca de aparência menos do que perfeita, Barbie parte para o mundo humano em busca da verdadeira felicidade.",
+            sinopse:"Foi muito legal estar apresentando um projeto que desenvolvi em um evento aberto.",
             imagem:"/projetoEnsino.png"
         },
         {
             id:2,
             titulo:"Premiação FECINAVI",
-            sinopse:"Depois de ser expulsa da Barbieland por ser uma boneca de aparência menos do que perfeita, Barbie parte para o mundo humano em busca da verdadeira felicidade.",
+            sinopse:"Foi uma experiencia e sensação muito boa ganhar em 3 lugar na fecinavi.",
             imagem:"/fecinavi.JPG"
         },
         {
             id:3,
             titulo:" 2º Dia da Consciência Indígena",
-            sinopse:"Depois de ser expulsa da Barbieland por ser uma boneca de aparência menos do que perfeita, Barbie parte para o mundo humano em busca da verdadeira felicidade.",
+            sinopse:"Mesmo no ead consegui aprender demais sobre o tema e tambem fui monitor.",
             imagem:"/conciencianegra.JPG"
         },
         {
           id:4,
           titulo:"Semana do Meio Ambiente",
-          sinopse:"Depois de ser expulsa da Barbieland por ser uma boneca de aparência menos do que perfeita, Barbie parte para o mundo humano em busca da verdadeira felicidade.",
+          sinopse:"Foi uma experiencia muito boa, pois pude aprender muito.",
           imagem:"/meioambiente.png"
       },
       {
         id:5,
         titulo:"Scooby",
-        sinopse:"Depois de ser expulsa da Barbieland por ser uma boneca de aparência menos do que perfeita, Barbie parte para o mundo humano em busca da verdadeira felicidade.",
+        sinopse:"Scooby meu filho, ele é meu cachorro querido.",
         imagem:"/filho.jpg"
-    },
-    {
-      id:6,
-      titulo:" 2º Dia da Consciência Indígena",
-      sinopse:"Depois de ser expulsa da Barbieland por ser uma boneca de aparência menos do que perfeita, Barbie parte para o mundo humano em busca da verdadeira felicidade.",
-      imagem:"/transformes.jpeg"
-  },
-
-
-
+    }
+  
     ]
     //A função recebe um atributo chamado e de "event"
     function mudaTexto(e:React.ChangeEvent<HTMLInputElement>){

@@ -3,6 +3,7 @@ function Header(){
     return(
         <header>
             <div className='logo'>
+                PORTIFOLIO
             </div>
             <nav>
                 <ul>
