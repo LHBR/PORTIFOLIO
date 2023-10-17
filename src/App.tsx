@@ -1,19 +1,54 @@
-import './App.css'
+import React from 'react'
+import './main.css'
 import Header from './componentes/header/Header'
-// import Footer from './componentes/footer/Footer'
+import Footer from './componentes/footer/Footer'
 import Main from './componentes/main/Main'
-import Footer1 from './componentes/Footer1/Footer1'
-function App() {
-  return (
-    <div> 
+import * as ReactDOM from "react-dom/client";
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: 
+      <>
+        <Header/>
+        <Main/>
+        <Footer/>
+      </>,
+  },
+  {
+    path: "/sobre",
+    element: 
+    <>
       <Header/>
-      <Main/>
-    {/* <Footer/> */}
-    <Footer1/>
-    </div>
-   
+      <div className='content-main'>Página Sobre!</div>
+      <Footer/>
+    </>,
+  },
+  {
+    path: "/noticias",
+    element:
+    <>
+      <Header/>
+      <div className='content-main'>Página de Notícias!</div>
+      <Footer/>
+    </>,
+  },
+  {
+    path: "/contato",
+    element: 
+      <>
+        <Header/>
+        <div className='content-main'>Página de Contato!</div>
+        <Footer/>
+      </>,
+  },
+]);
 
-     
-  )
-}
-export default App
+ReactDOM.createRoot(document.getElementById('root')!).render(
+  <React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>,
+)
