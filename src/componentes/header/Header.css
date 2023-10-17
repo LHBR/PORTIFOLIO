@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&display=swap');
 header{
-    background-color: rgb(44, 226, 38);
+    background-color: #00bfff;
     display: flex;
     justify-content: space-between;
     padding: 10px 05vw;
@@ -11,7 +11,7 @@ header{
 header nav ul li a{
     text-decoration: none;
     padding: 15px;
-    border: 1px solid rgb(36, 206, 72);
+    border: 1px solid rgb(29, 29, 28);
     color: white;
 }
 

@@ -5,7 +5,7 @@ function Footer1(){
         <footer className='footer'>
         <div className='nome'>Lucas Rocha</div>
         <div className='tt'>
-            <div className='ctt'>Contato</div>
+            
             <nav className="company">
                         <ul><a className="text">Empresas</a>
                             <li>
